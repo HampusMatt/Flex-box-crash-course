@@ -115,3 +115,25 @@ ul {
     }
 }
 
+@media screen and (max-width:600px){
+    .logo {
+        margin-top: 20px;
+    }
+    #navbar {
+        height: min-content;
+    }
+    #navbar .container {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
